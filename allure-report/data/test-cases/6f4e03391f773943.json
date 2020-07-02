@@ -1,12 +1,12 @@
 {
-  "uid" : "32cbe061d315daef",
-  "name" : ".clear() - clears an input or textarea element",
-  "fullName" : ".clear() - clears an input or textarea element",
-  "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
+  "uid" : "6f4e03391f773943",
+  "name" : ".focus() - focus on a DOM element",
+  "fullName" : ".focus() - focus on a DOM element",
+  "historyId" : "9669a37fa765c3bf4c36a146da118d95",
   "time" : {
-    "start" : 1593707947408,
-    "stop" : 1593707947985,
-    "duration" : 577
+    "start" : 1593707946217,
+    "stop" : 1593707946876,
+    "duration" : 659
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,12 +14,22 @@
   "beforeStages" : [ {
     "time" : { },
     "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
-        "start" : 1593707947425,
-        "stop" : 1593707947549,
-        "duration" : 124
+        "start" : 1593707946227,
+        "stop" : 1593707946816,
+        "duration" : 589
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,11 +50,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "get .action-clear ",
+      "name" : "get .action-focus ",
       "time" : {
-        "start" : 1593707947549,
-        "stop" : 1593707947559,
-        "duration" : 10
+        "start" : 1593707946816,
+        "stop" : 1593707946850,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,11 +65,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type Clear this text ",
+      "name" : "focus  ",
       "time" : {
-        "start" : 1593707947559,
-        "stop" : 1593707947902,
-        "duration" : 343
+        "start" : 1593707946850,
+        "stop" : 1593707946868,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -70,11 +80,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **Clear this text** ",
+      "name" : "assert expected **<input#password1.form-control.action-focus.focus>** to have class **focus** ",
       "time" : {
-        "start" : 1593707947902,
-        "stop" : 1593707947905,
-        "duration" : 3
+        "start" : 1593707946868,
+        "stop" : 1593707946870,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -85,11 +95,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "clear  ",
+      "name" : "prev  ",
       "time" : {
-        "start" : 1593707947905,
-        "stop" : 1593707947985,
-        "duration" : 80
+        "start" : 1593707946870,
+        "stop" : 1593707946875,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,11 +110,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **''** ",
+      "name" : "assert expected **<label>** to have attribute **style** with the value **color: orange;** ",
       "time" : {
-        "start" : 1593707947985,
-        "stop" : 1593707947985,
-        "duration" : 0
+        "start" : 1593707946875,
+        "stop" : 1593707946876,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,9 +138,9 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
-        "start" : 1593707947991,
-        "stop" : 1593707948006,
-        "duration" : 15
+        "start" : 1593707946894,
+        "stop" : 1593707946919,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -164,6 +174,9 @@
     "name" : "owner",
     "value" : "Me, lol"
   }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -174,74 +187,77 @@
     "type" : "tms"
   }, {
     "name" : "docs",
-    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/clear",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/focus",
     "type" : "tms"
   } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "minor",
     "owner" : "Me, lol",
     "retries" : [ ],
     "categories" : [ ],
     "history" : {
       "statistic" : {
-        "failed" : 0,
+        "failed" : 3,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 3,
         "unknown" : 0,
         "total" : 6
       },
       "items" : [ {
-        "uid" : "50d0c48ac22afa86",
-        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/5/allure-report/#testresult/50d0c48ac22afa86",
-        "status" : "passed",
+        "uid" : "dd4b935b98e52e56",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/5/allure-report/#testresult/dd4b935b98e52e56",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
         "time" : {
-          "start" : 1593707400111,
-          "stop" : 1593707400687,
-          "duration" : 576
+          "start" : 1593707394831,
+          "stop" : 1593707399526,
+          "duration" : 4695
         }
       }, {
-        "uid" : "8502e191e5f774dd",
-        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/4/allure-report/#testresult/8502e191e5f774dd",
+        "uid" : "88ff0a86f08caacd",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/4/allure-report/#testresult/88ff0a86f08caacd",
         "status" : "passed",
         "time" : {
-          "start" : 1593707205071,
-          "stop" : 1593707205706,
-          "duration" : 635
+          "start" : 1593707203554,
+          "stop" : 1593707204466,
+          "duration" : 912
         }
       }, {
-        "uid" : "ac67db8364cfed9a",
-        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/3/allure-report/#testresult/ac67db8364cfed9a",
+        "uid" : "d212194c997f2a8f",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/3/allure-report/#testresult/d212194c997f2a8f",
         "status" : "passed",
         "time" : {
-          "start" : 1593706896320,
-          "stop" : 1593706896855,
-          "duration" : 535
+          "start" : 1593706895315,
+          "stop" : 1593706895809,
+          "duration" : 494
         }
       }, {
-        "uid" : "6e3945dfb7078d00",
-        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/6e3945dfb7078d00",
-        "status" : "passed",
+        "uid" : "43fb3fb581fd0411",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/43fb3fb581fd0411",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
         "time" : {
-          "start" : 1593706769422,
-          "stop" : 1593706770106,
-          "duration" : 684
+          "start" : 1593706763112,
+          "stop" : 1593706768842,
+          "duration" : 5730
         }
       }, {
-        "uid" : "6f239dacc5d25500",
-        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/6f239dacc5d25500",
-        "status" : "passed",
+        "uid" : "25d0b37f32b59fdb",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/25d0b37f32b59fdb",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
         "time" : {
-          "start" : 1593706478365,
-          "stop" : 1593706479014,
-          "duration" : 649
+          "start" : 1593706472272,
+          "stop" : 1593706477774,
+          "duration" : 5502
         }
       } ]
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "32cbe061d315daef.json",
+  "source" : "6f4e03391f773943.json",
   "parameterValues" : [ ]
 }
