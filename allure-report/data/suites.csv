@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Thu Jul 02 15:43:11 GMT 2020","Thu Jul 02 15:43:16 GMT 2020","4752","Actions","","","","",".focus() - focus on a DOM element",""
-"passed","Thu Jul 02 15:43:16 GMT 2020","Thu Jul 02 15:43:17 GMT 2020","568","Actions","","","","",".clear() - clears an input or textarea element",""
-"passed","Thu Jul 02 15:43:16 GMT 2020","Thu Jul 02 15:43:16 GMT 2020","515","Actions","","","","",".blur() - blur off a DOM element",""
+"passed","Thu Jul 02 18:54:31 EEST 2020","Thu Jul 02 18:54:31 EEST 2020","547","Actions","","","","",".blur() - blur off a DOM element",""
+"passed","Thu Jul 02 18:54:31 EEST 2020","Thu Jul 02 18:54:32 EEST 2020","676","Actions","","","","",".clear() - clears an input or textarea element",""
+"failed","Thu Jul 02 18:54:25 EEST 2020","Thu Jul 02 18:54:31 EEST 2020","5456","Actions","","","","",".focus() - focus on a DOM element",""

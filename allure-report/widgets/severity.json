@@ -1,31 +1,31 @@
 [ {
-  "uid" : "6ae540394701b0aa",
+  "uid" : "f35371721e14f177",
+  "name" : ".clear() - clears an input or textarea element",
+  "time" : {
+    "start" : 1593705271723,
+    "stop" : 1593705272399,
+    "duration" : 676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef154e762d9e7fdf",
+  "name" : ".blur() - blur off a DOM element",
+  "time" : {
+    "start" : 1593705271162,
+    "stop" : 1593705271709,
+    "duration" : 547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6702a1825818bb46",
   "name" : ".focus() - focus on a DOM element",
   "time" : {
-    "start" : 1593704591316,
-    "stop" : 1593704596068,
-    "duration" : 4752
+    "start" : 1593705265677,
+    "stop" : 1593705271133,
+    "duration" : 5456
   },
   "status" : "failed",
   "severity" : "minor"
-}, {
-  "uid" : "2f49d7f26ef50e6a",
-  "name" : ".clear() - clears an input or textarea element",
-  "time" : {
-    "start" : 1593704596627,
-    "stop" : 1593704597195,
-    "duration" : 568
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8888919e9ea1c99b",
-  "name" : ".blur() - blur off a DOM element",
-  "time" : {
-    "start" : 1593704596096,
-    "stop" : 1593704596611,
-    "duration" : 515
-  },
-  "status" : "passed",
-  "severity" : "normal"
 } ]

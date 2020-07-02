@@ -9,14 +9,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "366d293d8a0de981",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/366d293d8a0de981",
+      "uid" : "95d8448fbbfbc56a",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/95d8448fbbfbc56a",
       "status" : "failed",
       "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "time" : {
-        "start" : 1593700237177,
-        "stop" : 1593700242646,
-        "duration" : 5469
+        "start" : 1593704873197,
+        "stop" : 1593704899804,
+        "duration" : 26607
       }
     } ]
   },
@@ -30,13 +30,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6066b9b011002bc",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/f6066b9b011002bc",
+      "uid" : "94747c99b7daea15",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/94747c99b7daea15",
       "status" : "passed",
       "time" : {
-        "start" : 1593700243208,
-        "stop" : 1593700243867,
-        "duration" : 659
+        "start" : 1593704900611,
+        "stop" : 1593704901274,
+        "duration" : 663
       }
     } ]
   },
@@ -50,13 +50,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "311d14581f9ac973",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/311d14581f9ac973",
+      "uid" : "8800a96f79b4fa81",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/8800a96f79b4fa81",
       "status" : "passed",
       "time" : {
-        "start" : 1593700242675,
-        "stop" : 1593700243192,
-        "duration" : 517
+        "start" : 1593704899830,
+        "stop" : 1593704900591,
+        "duration" : 761
       }
     } ]
   }

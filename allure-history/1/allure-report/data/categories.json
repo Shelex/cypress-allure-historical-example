@@ -7,13 +7,13 @@
       "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "children" : [ {
         "name" : ".focus() - focus on a DOM element",
-        "uid" : "366d293d8a0de981",
+        "uid" : "95d8448fbbfbc56a",
         "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
         "status" : "failed",
         "time" : {
-          "start" : 1593700237177,
-          "stop" : 1593700242646,
-          "duration" : 5469
+          "start" : 1593704873197,
+          "stop" : 1593704899804,
+          "duration" : 26607
         },
         "flaky" : false,
         "newFailed" : false,
