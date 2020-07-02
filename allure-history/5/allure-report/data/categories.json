@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+      "children" : [ {
+        "name" : ".focus() - focus on a DOM element",
+        "uid" : "dd4b935b98e52e56",
+        "parentUid" : "1c5d6b9ed0519da8639c4f81f2b7a5a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593707394831,
+          "stop" : 1593707399526,
+          "duration" : 4695
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c5d6b9ed0519da8639c4f81f2b7a5a3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
