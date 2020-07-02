@@ -1,0 +1,8 @@
+[ {
+  "name" : "gh action",
+  "buildOrder" : 2,
+  "buildName" : "gh action",
+  "buildUrl" : "https://github.com/Shelex/cypress-allure-historical-example/actions/runs/2",
+  "reportName" : "test report",
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report"
+} ]
