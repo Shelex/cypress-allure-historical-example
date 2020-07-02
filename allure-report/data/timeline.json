@@ -1,40 +1,40 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : ".focus() - focus on a DOM element",
-    "uid" : "6f4e03391f773943",
+    "name" : ".clear() - clears an input or textarea element",
+    "uid" : "6c1842b57b8e0715",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1593707946217,
-      "stop" : 1593707946876,
-      "duration" : 659
+      "start" : 1593714285587,
+      "stop" : 1593714286210,
+      "duration" : 623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".focus() - focus on a DOM element",
+    "uid" : "cad55bfa943159b1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593714284616,
+      "stop" : 1593714285030,
+      "duration" : 414
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : ".blur() - blur off a DOM element",
-    "uid" : "83b6f1756dece745",
+    "uid" : "5570dff9df8789ed",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1593707946901,
-      "stop" : 1593707947391,
-      "duration" : 490
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".clear() - clears an input or textarea element",
-    "uid" : "6ef5f53bca3fda44",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1593707947408,
-      "stop" : 1593707947985,
-      "duration" : 577
+      "start" : 1593714285052,
+      "stop" : 1593714285570,
+      "duration" : 518
     },
     "flaky" : false,
     "newFailed" : false,

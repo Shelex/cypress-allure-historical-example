@@ -4,11 +4,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "cad55bfa943159b1",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/cad55bfa943159b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714284616,
+        "stop" : 1593714285030,
+        "duration" : 414
+      }
+    }, {
       "uid" : "6f4e03391f773943",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/6f4e03391f773943",
       "status" : "passed",
@@ -72,11 +81,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "5570dff9df8789ed",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/5570dff9df8789ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714285052,
+        "stop" : 1593714285570,
+        "duration" : 518
+      }
+    }, {
       "uid" : "83b6f1756dece745",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/83b6f1756dece745",
       "status" : "passed",
@@ -137,11 +155,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "6c1842b57b8e0715",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/6c1842b57b8e0715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714285587,
+        "stop" : 1593714286210,
+        "duration" : 623
+      }
+    }, {
       "uid" : "6ef5f53bca3fda44",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/6ef5f53bca3fda44",
       "status" : "passed",
