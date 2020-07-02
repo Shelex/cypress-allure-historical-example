@@ -1,0 +1,43 @@
+[ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 1768
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/5/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 5856
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/4/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 2152
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/3/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 1540
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 6994
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 6742
+  }
+} ]

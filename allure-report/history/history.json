@@ -4,11 +4,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ef33cf6d2166ded1",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/8/allure-report/#testresult/ef33cf6d2166ded1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714556109,
+        "stop" : 1593714556625,
+        "duration" : 516
+      }
+    }, {
       "uid" : "cad55bfa943159b1",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/cad55bfa943159b1",
       "status" : "passed",
@@ -78,14 +87,24 @@
   },
   "2403b69d3efe79b711ea79f102961b49" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "881f69179a6063ef",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/8/allure-report/#testresult/881f69179a6063ef",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected '<input#fullName1.form-control.action-blur.error>' not to have class 'error'",
+      "time" : {
+        "start" : 1593714556640,
+        "stop" : 1593714561316,
+        "duration" : 4676
+      }
+    }, {
       "uid" : "5570dff9df8789ed",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/5570dff9df8789ed",
       "status" : "passed",
@@ -155,11 +174,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "5148855c415b7c3",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/8/allure-report/#testresult/5148855c415b7c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714561351,
+        "stop" : 1593714561903,
+        "duration" : 552
+      }
+    }, {
       "uid" : "6c1842b57b8e0715",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/6c1842b57b8e0715",
       "status" : "passed",
