@@ -36,6 +36,7 @@ jobs:
                   INC=1
                   NEXTID=$(($LATESTID+$INC)) 
 
+                  mkdir -p allure-history/${NEXTID}/allure-results
                   mv allure-results allure-history/${NEXTID}/allure-results
                   mkdir -p allure-results && cp -r allure-report/history allure-results/history
                   mv allure-report ./allure-history/${NEXTID}/allure-report
