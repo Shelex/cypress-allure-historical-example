@@ -1,31 +1,31 @@
 [ {
-  "uid" : "5148855c415b7c3",
+  "uid" : "6b165009295cdbba",
   "name" : ".clear() - clears an input or textarea element",
   "time" : {
-    "start" : 1593714561351,
-    "stop" : 1593714561903,
-    "duration" : 552
+    "start" : 1593714681540,
+    "stop" : 1593714682101,
+    "duration" : 561
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "881f69179a6063ef",
-  "name" : ".blur() - blur off a DOM element",
-  "time" : {
-    "start" : 1593714556640,
-    "stop" : 1593714561316,
-    "duration" : 4676
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef33cf6d2166ded1",
+  "uid" : "e4be31c1aee08a92",
   "name" : ".focus() - focus on a DOM element",
   "time" : {
-    "start" : 1593714556109,
-    "stop" : 1593714556625,
-    "duration" : 516
+    "start" : 1593714680567,
+    "stop" : 1593714680958,
+    "duration" : 391
   },
   "status" : "passed",
   "severity" : "minor"
+}, {
+  "uid" : "d2d23c4ddce58ec9",
+  "name" : ".blur() - blur off a DOM element",
+  "time" : {
+    "start" : 1593714680977,
+    "stop" : 1593714681527,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

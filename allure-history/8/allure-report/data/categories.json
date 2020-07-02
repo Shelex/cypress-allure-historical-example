@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Not to have class tests",
+    "children" : [ {
+      "name" : "Timed out retrying: expected '<input#fullName1.form-control.action-blur.error>' not to have class 'error'",
+      "children" : [ {
+        "name" : ".blur() - blur off a DOM element",
+        "uid" : "881f69179a6063ef",
+        "parentUid" : "71fe9d56d67f3b69b54ac86b8ad8350b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593714556640,
+          "stop" : 1593714561316,
+          "duration" : 4676
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71fe9d56d67f3b69b54ac86b8ad8350b"
+    } ],
+    "uid" : "645aecf10257b32eb3e7b5f6bbd53442"
+  } ],
+  "name" : "categories"
+}

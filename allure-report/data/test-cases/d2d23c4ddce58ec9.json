@@ -1,0 +1,290 @@
+{
+  "uid" : "d2d23c4ddce58ec9",
+  "name" : ".blur() - blur off a DOM element",
+  "fullName" : ".blur() - blur off a DOM element",
+  "historyId" : "2403b69d3efe79b711ea79f102961b49",
+  "time" : {
+    "start" : 1593714680977,
+    "stop" : 1593714681527,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1593714680994,
+        "stop" : 1593714681184,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .action-blur ",
+      "time" : {
+        "start" : 1593714681184,
+        "stop" : 1593714681197,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type About to blur ",
+      "time" : {
+        "start" : 1593714681197,
+        "stop" : 1593714681514,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "blur  ",
+      "time" : {
+        "start" : 1593714681514,
+        "stop" : 1593714681520,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#fullName1.form-control.action-blur.error>** to have class **error** ",
+      "time" : {
+        "start" : 1593714681520,
+        "stop" : 1593714681522,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "prev  ",
+      "time" : {
+        "start" : 1593714681522,
+        "stop" : 1593714681526,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<label>** to have attribute **style** with the value **color: red;** ",
+      "time" : {
+        "start" : 1593714681526,
+        "stop" : 1593714681527,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1593714681534,
+        "stop" : 1593714681562,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/blur",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "881f69179a6063ef",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/8/allure-report/#testresult/881f69179a6063ef",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#fullName1.form-control.action-blur.error>' not to have class 'error'",
+        "time" : {
+          "start" : 1593714556640,
+          "stop" : 1593714561316,
+          "duration" : 4676
+        }
+      }, {
+        "uid" : "5570dff9df8789ed",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/7/allure-report/#testresult/5570dff9df8789ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593714285052,
+          "stop" : 1593714285570,
+          "duration" : 518
+        }
+      }, {
+        "uid" : "83b6f1756dece745",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/83b6f1756dece745",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593707946901,
+          "stop" : 1593707947391,
+          "duration" : 490
+        }
+      }, {
+        "uid" : "f6787cb5306d4b85",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/5/allure-report/#testresult/f6787cb5306d4b85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593707399561,
+          "stop" : 1593707400094,
+          "duration" : 533
+        }
+      }, {
+        "uid" : "58c0526977c82f49",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/4/allure-report/#testresult/58c0526977c82f49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593707204524,
+          "stop" : 1593707205051,
+          "duration" : 527
+        }
+      }, {
+        "uid" : "64fd5d3d5f7742d5",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/3/allure-report/#testresult/64fd5d3d5f7742d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593706895827,
+          "stop" : 1593706896305,
+          "duration" : 478
+        }
+      }, {
+        "uid" : "674a194b3f4c7eae",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/674a194b3f4c7eae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593706768861,
+          "stop" : 1593706769405,
+          "duration" : 544
+        }
+      }, {
+        "uid" : "81ff87a6eeb86e49",
+        "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report/#testresult/81ff87a6eeb86e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593706477792,
+          "stop" : 1593706478345,
+          "duration" : 553
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "d2d23c4ddce58ec9.json",
+  "parameterValues" : [ ]
+}

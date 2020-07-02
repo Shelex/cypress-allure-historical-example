@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Actions",
+    "children" : [ {
+      "name" : ".focus() - focus on a DOM element",
+      "uid" : "ef33cf6d2166ded1",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714556109,
+        "stop" : 1593714556625,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : ".blur() - blur off a DOM element",
+      "uid" : "881f69179a6063ef",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593714556640,
+        "stop" : 1593714561316,
+        "duration" : 4676
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : ".clear() - clears an input or textarea element",
+      "uid" : "5148855c415b7c3",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593714561351,
+        "stop" : 1593714561903,
+        "duration" : 552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e4eb7c6362a258d35885a68faf6e31c7"
+  } ],
+  "name" : "suites"
+}
