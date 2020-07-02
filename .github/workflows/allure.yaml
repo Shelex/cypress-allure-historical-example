@@ -31,7 +31,7 @@ jobs:
               run: |
                   mkdir -p allure-history
                   LATESTDIR=$(ls -td allure-history/* | head -1) >/dev/null 2>&1
-                  LATESTID=$LATESTDIR[16]
+                  LATESTID=${LATESTDIR:15}
                   [ -z "$LATESTID" ] && LATESTID=0
                   INC=1
                   NEXTID=$(($LATESTID+$INC)) 
