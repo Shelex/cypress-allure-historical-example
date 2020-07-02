@@ -42,7 +42,7 @@ jobs:
                   mv allure-results allure-history/${CURRENTID}/
                   mkdir -p allure-results && cp -r allure-report/history allure-results/history
                   mv allure-report allure-history/${CURRENTID}/allure-report
-                  echo "{\"name\": \"gh action\",\"buildOrder\": \"${NEXTID}\",\"buildName\": \"gh action\",\"buildUrl\": \"https://github.com/Shelex/cypress-allure-historical-example/action/runs/${{ github.run_id }}\",\"reportUrl\": \"https://shelex.github.io/cypress-allure-historical-example/allure-history/${NEXTID}/allure-report\",\"reportName\": \"test report\"}" > allure-results/executor.json
+                  echo "{\"name\": \"gh action\",\"buildOrder\": \"${NEXTID}\",\"buildName\": \"gh action\",\"buildUrl\": \"https://github.com/Shelex/cypress-allure-historical-example/actions/runs/${{ github.run_id }}\",\"reportUrl\": \"https://shelex.github.io/cypress-allure-historical-example/allure-history/${NEXTID}/allure-report\",\"reportName\": \"test report\"}" > allure-results/executor.json
 
             - name: Install Cypress
               run: |
