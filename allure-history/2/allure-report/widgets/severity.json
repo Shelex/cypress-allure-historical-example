@@ -1,0 +1,31 @@
+[ {
+  "uid" : "43fb3fb581fd0411",
+  "name" : ".focus() - focus on a DOM element",
+  "time" : {
+    "start" : 1593706763112,
+    "stop" : 1593706768842,
+    "duration" : 5730
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "6e3945dfb7078d00",
+  "name" : ".clear() - clears an input or textarea element",
+  "time" : {
+    "start" : 1593706769422,
+    "stop" : 1593706770106,
+    "duration" : 684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "674a194b3f4c7eae",
+  "name" : ".blur() - blur off a DOM element",
+  "time" : {
+    "start" : 1593706768861,
+    "stop" : 1593706769405,
+    "duration" : 544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

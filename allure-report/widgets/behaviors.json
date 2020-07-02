@@ -4,10 +4,10 @@
     "uid" : "cae7621e2565352e172b864ca84b877b",
     "name" : "Plain js tests",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
