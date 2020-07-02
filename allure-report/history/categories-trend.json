@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report",
+  "reportName" : "test report",
+  "data" : { }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/5/allure-report",
   "reportName" : "test report",
