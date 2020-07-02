@@ -1,5 +1,5 @@
 [ {
-  "uid" : "6959aaa10065c203",
+  "uid" : "f0d3bc439d1e70fe",
   "name" : ".clear() - clears an input or textarea element",
   "time" : {
     "start" : 1593704092083,
@@ -9,17 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e0843b1d9886dbe0",
-  "name" : ".blur() - blur off a DOM element",
-  "time" : {
-    "start" : 1593704091514,
-    "stop" : 1593704092053,
-    "duration" : 539
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ac40bf8ccbe0cbe",
+  "uid" : "77a5218f9798ee0e",
   "name" : ".focus() - focus on a DOM element",
   "time" : {
     "start" : 1593704085897,
@@ -28,4 +18,14 @@
   },
   "status" : "failed",
   "severity" : "minor"
+}, {
+  "uid" : "efefb94b8e7a182d",
+  "name" : ".blur() - blur off a DOM element",
+  "time" : {
+    "start" : 1593704091514,
+    "stop" : 1593704092053,
+    "duration" : 539
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

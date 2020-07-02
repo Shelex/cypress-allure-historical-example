@@ -1,9 +1,8 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : ".clear() - clears an input or textarea element",
-    "uid" : "6959aaa10065c203",
+    "uid" : "f0d3bc439d1e70fe",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -15,21 +14,8 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : ".focus() - focus on a DOM element",
-    "uid" : "8ac40bf8ccbe0cbe",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1593704085897,
-      "stop" : 1593704091490,
-      "duration" : 5593
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : ".blur() - blur off a DOM element",
-    "uid" : "e0843b1d9886dbe0",
+    "uid" : "efefb94b8e7a182d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -40,5 +26,19 @@
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
-  } ]
+  }, {
+    "name" : ".focus() - focus on a DOM element",
+    "uid" : "77a5218f9798ee0e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1593704085897,
+      "stop" : 1593704091490,
+      "duration" : 5593
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
 }

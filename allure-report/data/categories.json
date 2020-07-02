@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Not to have class tests",
     "children" : [ {
       "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "children" : [ {
         "name" : ".focus() - focus on a DOM element",
-        "uid" : "8ac40bf8ccbe0cbe",
+        "uid" : "77a5218f9798ee0e",
         "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
         "status" : "failed",
         "time" : {
@@ -22,5 +21,6 @@
       "uid" : "f68554bcad9163695b77d14b928ed9a5"
     } ],
     "uid" : "645aecf10257b32eb3e7b5f6bbd53442"
-  } ]
+  } ],
+  "name" : "categories"
 }
