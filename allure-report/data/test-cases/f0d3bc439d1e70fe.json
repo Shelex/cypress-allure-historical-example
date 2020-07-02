@@ -1,5 +1,5 @@
 {
-  "uid" : "6959aaa10065c203",
+  "uid" : "f0d3bc439d1e70fe",
   "name" : ".clear() - clears an input or textarea element",
   "fullName" : ".clear() - clears an input or textarea element",
   "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
@@ -186,6 +186,6 @@
     "categories" : [ ],
     "tags" : [ "this is tag" ]
   },
-  "source" : "6959aaa10065c203.json",
+  "source" : "f0d3bc439d1e70fe.json",
   "parameterValues" : [ ]
 }

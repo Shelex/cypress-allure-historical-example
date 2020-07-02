@@ -9,8 +9,8 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ac40bf8ccbe0cbe",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/8ac40bf8ccbe0cbe",
+      "uid" : "77a5218f9798ee0e",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/77a5218f9798ee0e",
       "status" : "failed",
       "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "time" : {
@@ -30,8 +30,8 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6959aaa10065c203",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/6959aaa10065c203",
+      "uid" : "f0d3bc439d1e70fe",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/f0d3bc439d1e70fe",
       "status" : "passed",
       "time" : {
         "start" : 1593704092083,
@@ -50,8 +50,8 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e0843b1d9886dbe0",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/e0843b1d9886dbe0",
+      "uid" : "efefb94b8e7a182d",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/efefb94b8e7a182d",
       "status" : "passed",
       "time" : {
         "start" : 1593704091514,
