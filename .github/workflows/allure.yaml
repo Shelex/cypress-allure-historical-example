@@ -33,12 +33,12 @@ jobs:
                   LATESTDIR=$(ls -td allure-history/* | head -1) >/dev/null 2>&1
                   LATESTID=$LATESTDIR[16]
                   [ -z "$LATESTID" ] && LATESTID=0
-                  NEXTID=$(( $LATESTID+1 ))
+                  NEXTID="$LATESTID + 1" | bc
 
                   mv allure-results allure-history/${NEXTID}/allure-results
                   mkdir -p allure-results && cp -r allure-report/history allure-results/history
                   mv allure-report ./allure-history/${NEXTID}/allure-report
-                  echo "{\"name\": \"gh action\",\"buildOrder\": \"${NEXTID}\",\"buildName\": \"gh action\",\"buildUrl\": \"https://github.com/Shelex/cypress-allure-historical-example/runs/${{ github.run_id }}\",\"reportUrl\": \"https://shelex.github.io/cypress-allure-historical-example/allure-history/${NEXTID}/allure-report\",\"reportName\": \"test report\"}" > allure-results/executor.json
+                  echo "{\"name\": \"gh action\",\"buildOrder\": \"${NEXTID}\",\"buildName\": \"gh action\",\"buildUrl\": \"https://github.com/Shelex/cypress-allure-historical-example/action/runs/${{ github.run_id }}\",\"reportUrl\": \"https://shelex.github.io/cypress-allure-historical-example/allure-history/${NEXTID}/allure-report\",\"reportName\": \"test report\"}" > allure-results/executor.json
 
             - name: Install Cypress
               run: |
