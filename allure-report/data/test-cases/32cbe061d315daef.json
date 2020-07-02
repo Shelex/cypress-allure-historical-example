@@ -1,5 +1,5 @@
 {
-  "uid" : "c41d60f877ad57ab",
+  "uid" : "32cbe061d315daef",
   "name" : ".clear() - clears an input or textarea element",
   "fullName" : ".clear() - clears an input or textarea element",
   "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
@@ -25,17 +25,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
     "stepsCount" : 1,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   } ],
   "testStage" : {
     "status" : "passed",
@@ -50,10 +50,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "type Clear this text ",
       "time" : {
@@ -65,10 +65,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "assert expected **<input#description.form-control.action-clear>** to have value **Clear this text** ",
       "time" : {
@@ -80,10 +80,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "clear  ",
       "time" : {
@@ -95,10 +95,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "assert expected **<input#description.form-control.action-clear>** to have value **''** ",
       "time" : {
@@ -110,17 +110,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
     "stepsCount" : 5,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -136,17 +136,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
     "stepsCount" : 1,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -242,6 +242,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "c41d60f877ad57ab.json",
+  "source" : "32cbe061d315daef.json",
   "parameterValues" : [ ]
 }

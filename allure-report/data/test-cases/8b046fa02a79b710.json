@@ -1,5 +1,5 @@
 {
-  "uid" : "9c764f88b85ffbc",
+  "uid" : "8b046fa02a79b710",
   "name" : ".focus() - focus on a DOM element",
   "fullName" : ".focus() - focus on a DOM element",
   "historyId" : "9669a37fa765c3bf4c36a146da118d95",
@@ -17,10 +17,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
     "stepsCount" : 0,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   }, {
     "time" : { },
     "status" : "passed",
@@ -35,17 +35,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
     "stepsCount" : 1,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   } ],
   "testStage" : {
     "status" : "passed",
@@ -60,10 +60,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "focus  ",
       "time" : {
@@ -75,10 +75,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "assert expected **<input#password1.form-control.action-focus.focus>** to have class **focus** ",
       "time" : {
@@ -90,10 +90,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "prev  ",
       "time" : {
@@ -105,10 +105,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "assert expected **<label>** to have attribute **style** with the value **color: orange;** ",
       "time" : {
@@ -120,17 +120,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
     "stepsCount" : 5,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -146,17 +146,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "hasContent" : true,
     "stepsCount" : 1,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -258,6 +258,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "9c764f88b85ffbc.json",
+  "source" : "8b046fa02a79b710.json",
   "parameterValues" : [ ]
 }

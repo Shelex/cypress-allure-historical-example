@@ -9,8 +9,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "9c764f88b85ffbc",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/9c764f88b85ffbc",
+      "uid" : "8b046fa02a79b710",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/8b046fa02a79b710",
       "status" : "passed",
       "time" : {
         "start" : 1593707946217,
@@ -77,8 +77,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "c540271a0f8fbbb7",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/c540271a0f8fbbb7",
+      "uid" : "c483e6e3e024aebe",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/c483e6e3e024aebe",
       "status" : "passed",
       "time" : {
         "start" : 1593707946901,
@@ -142,8 +142,8 @@
       "total" : 6
     },
     "items" : [ {
-      "uid" : "c41d60f877ad57ab",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/c41d60f877ad57ab",
+      "uid" : "32cbe061d315daef",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/6/allure-report/#testresult/32cbe061d315daef",
       "status" : "passed",
       "time" : {
         "start" : 1593707947408,
