@@ -1,14 +1,24 @@
 {
   "9669a37fa765c3bf4c36a146da118d95" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6ae540394701b0aa",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/6ae540394701b0aa",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+      "time" : {
+        "start" : 1593704591316,
+        "stop" : 1593704596068,
+        "duration" : 4752
+      }
+    }, {
       "uid" : "77a5218f9798ee0e",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/77a5218f9798ee0e",
       "status" : "failed",
@@ -20,36 +30,25 @@
       }
     } ]
   },
-  "fa534f1bfef9141e4ee0be8e32412027" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f0d3bc439d1e70fe",
-      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/f0d3bc439d1e70fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593704092083,
-        "stop" : 1593704092769,
-        "duration" : 686
-      }
-    } ]
-  },
   "2403b69d3efe79b711ea79f102961b49" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8888919e9ea1c99b",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/8888919e9ea1c99b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593704596096,
+        "stop" : 1593704596611,
+        "duration" : 515
+      }
+    }, {
       "uid" : "efefb94b8e7a182d",
       "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/efefb94b8e7a182d",
       "status" : "passed",
@@ -57,6 +56,35 @@
         "start" : 1593704091514,
         "stop" : 1593704092053,
         "duration" : 539
+      }
+    } ]
+  },
+  "fa534f1bfef9141e4ee0be8e32412027" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2f49d7f26ef50e6a",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/2f49d7f26ef50e6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593704596627,
+        "stop" : 1593704597195,
+        "duration" : 568
+      }
+    }, {
+      "uid" : "f0d3bc439d1e70fe",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/f0d3bc439d1e70fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593704092083,
+        "stop" : 1593704092769,
+        "duration" : 686
       }
     } ]
   }

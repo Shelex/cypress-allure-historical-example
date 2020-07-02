@@ -1,40 +1,40 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : ".focus() - focus on a DOM element",
+    "uid" : "6ae540394701b0aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1593704591316,
+      "stop" : 1593704596068,
+      "duration" : 4752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : ".clear() - clears an input or textarea element",
-    "uid" : "f0d3bc439d1e70fe",
+    "uid" : "2f49d7f26ef50e6a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1593704092083,
-      "stop" : 1593704092769,
-      "duration" : 686
+      "start" : 1593704596627,
+      "stop" : 1593704597195,
+      "duration" : 568
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : ".blur() - blur off a DOM element",
-    "uid" : "efefb94b8e7a182d",
+    "uid" : "8888919e9ea1c99b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1593704091514,
-      "stop" : 1593704092053,
-      "duration" : 539
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".focus() - focus on a DOM element",
-    "uid" : "77a5218f9798ee0e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1593704085897,
-      "stop" : 1593704091490,
-      "duration" : 5593
+      "start" : 1593704596096,
+      "stop" : 1593704596611,
+      "duration" : 515
     },
     "flaky" : false,
     "newFailed" : false,
