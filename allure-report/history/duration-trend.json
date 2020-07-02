@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/5/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "duration" : 5856
+  }
+}, {
   "buildOrder" : 4,
   "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/4/allure-report",
   "reportName" : "test report",

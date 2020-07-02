@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 02 19:26:43 EEST 2020","Thu Jul 02 19:26:44 EEST 2020","912","Actions","","","","",".focus() - focus on a DOM element",""
+"passed","Thu Jul 02 19:26:45 EEST 2020","Thu Jul 02 19:26:45 EEST 2020","635","Actions","","","","",".clear() - clears an input or textarea element",""
+"passed","Thu Jul 02 19:26:44 EEST 2020","Thu Jul 02 19:26:45 EEST 2020","527","Actions","","","","",".blur() - blur off a DOM element",""
