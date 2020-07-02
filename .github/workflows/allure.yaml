@@ -48,8 +48,8 @@ jobs:
                   NEXTID=$(($PREVIOUS_HISTORY_ID+$NEXT)) 
 
                   echo allure history contains 20 latest builds only, so we should remove old ones
-                  MAX=20
-                  [[ "$NEXTID" > "$MAX" ]] && rm -r allure-history/$(($NEXTID-$MAX))
+                  MAX="20"
+                  [[ "$NEXTID" -gt "$MAX" ]] && rm -r allure-history/$(($NEXTID-$MAX))
 
                   echo move actual report to history 
                   ecbo prepare history data + executor info for future run
