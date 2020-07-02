@@ -1,0 +1,15 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "Not to have class tests" : 1
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report",
+  "reportName" : "test report",
+  "data" : {
+    "Not to have class tests" : 1
+  }
+} ]
