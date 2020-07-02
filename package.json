@@ -1,0 +1,22 @@
+{
+    "name": "cypress-allure-historical-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "scripts": {
+        "cy:open": "yarn cypress open --env allure=true --browser chrome",
+        "cy:run": "yarn cypress run --config video=false --env allure=true --browser chrome",
+        "allure:report": "allure generate allure-history/1/allure-results --clean -o allure-history/1/allure-report/",
+        "allure:clear": "rm -r allure-results/ allure-report/latest cypress/screenshots || true",
+        "allure:history": "mv -f allure-report/latest/history allure-results/history && rm -r allure-report/latest || true"
+    },
+    "devDependencies": {
+        "@shelex/cypress-allure-plugin": "latest",
+        "cypress": "^4.1.0",
+        "eslint-plugin-chai-friendly": "^0.5.0",
+        "eslint-plugin-cypress": "^2.10.3"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    }
+}
