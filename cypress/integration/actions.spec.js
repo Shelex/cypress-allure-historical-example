@@ -5,7 +5,9 @@ context('Actions', () => {
         const currentHour = today.getHours();
 
         allure.writeEnvironmentInfo({
-            someEnvInfo: 'envInfo'
+            someEnvInfo: 'envInfo',
+            githubRepo:
+                'https://github.com/Shelex/cypress-allure-historical-example'
         });
 
         allure.writeCategoriesDefinitions([
@@ -47,7 +49,7 @@ context('Actions', () => {
         cy.get('.action-blur')
             .type('About to blur')
             .blur()
-            .should('not.have.class', 'error')
+            .should('have.class', 'error')
             .prev()
             .should('have.attr', 'style', 'color: red;');
     });
