@@ -3,10 +3,10 @@
   "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/1/allure-report",
   "reportName" : "test report",
   "data" : {
-    "failed" : 0,
+    "failed" : 1,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 3,
+    "passed" : 2,
     "unknown" : 0,
     "total" : 3
   }
