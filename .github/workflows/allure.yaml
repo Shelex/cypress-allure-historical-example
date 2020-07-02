@@ -52,7 +52,7 @@ jobs:
                   [[ "$NEXTID" -gt "$MAX" ]] && rm -r allure-history/$(($NEXTID-$MAX))
 
                   echo move actual report to history 
-                  ecbo prepare history data + executor info for future run
+                  echo prepare history data + executor info for future run
 
                   mkdir -p allure-history/${CURRENTID}/allure-results
                   mv allure-results allure-history/${CURRENTID}/
