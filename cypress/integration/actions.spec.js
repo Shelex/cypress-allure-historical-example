@@ -47,7 +47,7 @@ context('Actions', () => {
         cy.get('.action-blur')
             .type('About to blur')
             .blur()
-            .should('have.class', 'error')
+            .should('not.have.class', 'error')
             .prev()
             .should('have.attr', 'style', 'color: red;');
     });
