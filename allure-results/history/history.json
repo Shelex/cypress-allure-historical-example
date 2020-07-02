@@ -1,0 +1,63 @@
+{
+  "9669a37fa765c3bf4c36a146da118d95" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6702a1825818bb46",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/6702a1825818bb46",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+      "time" : {
+        "start" : 1593705265677,
+        "stop" : 1593705271133,
+        "duration" : 5456
+      }
+    } ]
+  },
+  "fa534f1bfef9141e4ee0be8e32412027" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f35371721e14f177",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/f35371721e14f177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593705271723,
+        "stop" : 1593705272399,
+        "duration" : 676
+      }
+    } ]
+  },
+  "2403b69d3efe79b711ea79f102961b49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef154e762d9e7fdf",
+      "reportUrl" : "https://shelex.github.io/cypress-allure-historical-example/allure-history/2/allure-report/#testresult/ef154e762d9e7fdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593705271162,
+        "stop" : 1593705271709,
+        "duration" : 547
+      }
+    } ]
+  }
+}

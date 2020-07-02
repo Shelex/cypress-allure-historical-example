@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Plain js tests",
+    "children" : [ {
+      "name" : "Actions Feature",
+      "children" : [ {
+        "name" : ".focus() - focus on a DOM element",
+        "uid" : "6702a1825818bb46",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593705265677,
+          "stop" : 1593705271133,
+          "duration" : 5456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".blur() - blur off a DOM element",
+        "uid" : "ef154e762d9e7fdf",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593705271162,
+          "stop" : 1593705271709,
+          "duration" : 547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".clear() - clears an input or textarea element",
+        "uid" : "f35371721e14f177",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593705271723,
+          "stop" : 1593705272399,
+          "duration" : 676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eda9441f4fad7c740aae10dcf97b13ba"
+    } ],
+    "uid" : "cae7621e2565352e172b864ca84b877b"
+  } ]
+}
