@@ -6,7 +6,7 @@
     "scripts": {
         "cy:open": "yarn cypress open --env allure=true --browser chrome",
         "cy:run": "yarn cypress run --config video=false --env allure=true --browser chrome",
-        "allure:report": "allure generate allure-history/1/allure-results --clean -o allure-history/1/allure-report/",
+        "allure:report": "allure generate allure-results --clean -o allure-report",
         "allure:clear": "rm -r allure-results/ allure-report/latest cypress/screenshots || true",
         "allure:history": "mv -f allure-report/latest/history allure-results/history && rm -r allure-report/latest || true"
     },
