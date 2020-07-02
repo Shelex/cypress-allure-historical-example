@@ -33,7 +33,8 @@ jobs:
                   LATESTDIR=$(ls -td allure-history/* | head -1) >/dev/null 2>&1
                   LATESTID=$LATESTDIR[16]
                   [ -z "$LATESTID" ] && LATESTID=0
-                  NEXTID=`expr $LATESTID + 1`
+                  INC=1
+                  NEXTID=$(($LATESTID+$INC)) 
 
                   mv allure-results allure-history/${NEXTID}/allure-results
                   mkdir -p allure-results && cp -r allure-report/history allure-results/history
